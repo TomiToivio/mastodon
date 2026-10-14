@@ -3,18 +3,18 @@
 source 'https://rubygems.org'
 ruby '>= 3.0.0'
 
-gem 'puma', '~> 6.3'
+gem 'puma', '~> 7.2'
 gem 'rails', '~> 7.0'
 gem 'sprockets', '~> 3.7.2'
 gem 'thor', '~> 1.2'
-gem 'rack', '~> 2.2.7'
+gem 'rack', '~> 2.2.23'
 
 gem 'haml-rails', '~>2.0'
 gem 'pg', '~> 1.5'
 gem 'pghero'
 gem 'dotenv-rails', '~> 2.8'
 
-gem 'aws-sdk-s3', '~> 1.123', require: false
+gem 'aws-sdk-s3', '~> 1.208', require: false
 gem 'fog-core', '<= 2.4.0'
 gem 'fog-openstack', '~> 0.3', require: false
 gem 'kt-paperclip', '~> 7.2'
@@ -22,7 +22,7 @@ gem 'md-paperclip-azure', '~> 2.2', require: false
 gem 'blurhash', '~> 0.1'
 
 gem 'active_model_serializers', '~> 0.10'
-gem 'addressable', '~> 2.8'
+gem 'addressable', '~> 2.9'
 gem 'bootsnap', '~> 1.16.0', require: false
 gem 'browser'
 gem 'charlock_holmes', '~> 0.7.7'
@@ -39,7 +39,7 @@ gem 'net-ldap', '~> 0.18'
 # TODO: Point back at released omniauth-cas gem when PR merged
 # https://github.com/dlindahl/omniauth-cas/pull/68
 gem 'omniauth-cas', github: 'stanhu/omniauth-cas', ref: '4211e6d05941b4a981f9a36b49ec166cecd0e271'
-gem 'omniauth-saml', '~> 2.0'
+gem 'omniauth-saml', '~> 2.2'
 gem 'omniauth_openid_connect', '~> 0.6.1'
 gem 'omniauth', '~> 2.0'
 gem 'omniauth-rails_csrf_protection', '~> 1.0'
@@ -60,9 +60,9 @@ gem 'idn-ruby', require: 'idn'
 gem 'kaminari', '~> 1.2'
 gem 'link_header', '~> 0.0'
 gem 'mime-types', '~> 3.5.0', require: 'mime/types/columnar'
-gem 'nokogiri', '~> 1.15'
+gem 'nokogiri', '~> 1.19'
 gem 'nsa', github: 'jhawthorn/nsa', ref: 'e020fcc3a54d993ab45b7194d89ab720296c111b'
-gem 'oj', '~> 3.14'
+gem 'oj', '~> 3.17'
 gem 'ox', '~> 2.14'
 gem 'parslet'
 gem 'posix-spawn'
@@ -195,6 +195,6 @@ gem 'xorcist', '~> 1.1'
 gem 'cocoon', '~> 1.2'
 
 gem 'net-http', '~> 0.3.2'
-gem 'rubyzip', '~> 2.3'
+gem 'rubyzip', '~> 3.4'
 
 gem 'hcaptcha', '~> 7.1'
